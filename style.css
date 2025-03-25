@@ -1,0 +1,106 @@
+/* 배경 */
+html, body {
+    font-family: var(--font-family);
+    background-color: #F0F0F0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 헤더 */
+.header {
+    background-color: #4B89DC;
+    width: 500px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: fit-content;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.header-title {
+    padding-bottom: 9px;
+}
+
+/* 번호 생성 */
+.lotto {
+    padding: 0 20px 32px 20px;
+}
+
+.section-title {
+    padding: 20px 0;
+}
+
+.balls {
+    gap: 38px;
+    margin: 20px 0;
+    display: flex;
+}
+
+/* 로또 구매하기 */
+.buy-container {
+    border-top: 1px #EEEEEE solid;
+    margin-top: 30px;
+}
+
+.buy-input-tag {
+    min-width: 72px;
+    width: fit-content;
+}
+
+.buy-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+    height: 20px;
+    font-family: inherit;
+    padding: 8px;
+}
+
+.buy-amount {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.total-amount {
+    padding: 12px 0;
+    margin-bottom: 12px;
+}
+
+.result-container {
+    margin-top: 32px;
+    box-shadow: none;
+    background-color: var(--color-background);
+    padding: 15px;
+}
+
+.result-container > .section-title {
+    padding: 0 0 16px;
+}
+
+.result-container .balls {
+    margin: 24px 0;
+    gap: 32px;
+}
+
+.lotto-result {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    background-color: #E8F4FD;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-text);
+}
